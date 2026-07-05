@@ -1,0 +1,8 @@
+.env
+api.rtf
+venv/
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
