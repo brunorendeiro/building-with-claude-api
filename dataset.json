@@ -1,11 +1,18 @@
 [
   {
-    "task": "Write a Python function that extracts the AWS region from an S3 bucket URL in the format 's3://bucket-name.region.amazonaws.com'. The function should return just the region code (e.g., 'us-east-1')."
-  },
-  {
-    "task": "Create a JSON object representing an AWS IAM policy that allows a principal to perform GetObject and PutObject actions on all objects within a specific S3 bucket named 'my-app-bucket'."
-  },
-  {
-    "task": "Write a regular expression that matches valid AWS EC2 instance IDs. Instance IDs follow the pattern of 'i-' followed by exactly 17 alphanumeric characters (lowercase letters and digits only)."
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - maximize carbohydrate loading and hydration for endurance performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories with carbohydrates comprising 60-65% of total calories",
+      "Includes at least 3 hydration checkpoints throughout the day with specific fluid intake recommendations",
+      "Contains exactly 5-6 meals/snacks distributed across the day in compact format",
+      "All meals are practical, easy to digest, and suitable for an athlete in training"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration strategies throughout the day"
   }
 ]
